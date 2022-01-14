@@ -1,0 +1,106 @@
+h1 {
+  color: white;
+  background-color: black;
+}
+
+input {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 5px;
+}
+
+button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 5px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main-layout {
+  min-height: 350px;
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  min-width: 420px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+input[type="search"] {
+  width: 97%;
+}
+input[type="text"] {
+  width: 63%;
+}
+.friend-inner {
+  display: flex;
+  height: 50px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin: 3px 6px;
+  align-items: center;
+}
+.friend-inner>div{
+  width: 50%;
+}
+.friend-status {
+  font-size: 12px;
+  color: #bbb;
+}
+.friendlist-container {
+  display: flex;
+  flex-direction: column;
+}
+.isClose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+  cursor: pointer;
+}
+.friend-operations {
+  display: flex;
+  justify-content: flex-end;
+}
+.isClose.normal {
+  background-color: #333;
+}
+.isClose.normal > .fa-star {
+  color: #fff;
+}
